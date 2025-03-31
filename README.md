@@ -46,8 +46,4 @@ This repository contains programming assignments for **CSCI 3412- Algorithms** a
 
 ---
 
-## 📥 License
-
-MIT License — feel free to fork, learn, and improve!
-
 
