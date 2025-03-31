@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Comparison of Running Times</title>
+    <style>
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid black; padding: 8px; text-align: center; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h2>Comparison of Running Times</h2>
+    <table>
+        <tr>
+            <th>Time Limit</th>
+            <th>log(n)</th>
+            <th>sqrt(n)</th>
+            <th>n</th>
+            <th>n log(n)</th>
+            <th>n²</th>
+            <th>n³</th>
+            <th>2^n</th>
+            <th>n!</th>
+        </tr>
+        <tr>
+            <td>1 second</td>
+            <td>2.72 x 10^0</td>
+            <td>1.00 x 10^0</td>
+            <td>1.00 x 10^0</td>
+            <td>1.00 x 10^0</td>
+            <td>1.00 x 10^0</td>
+            <td>1.00 x 10^0</td>
+            <td>2.00 x 10^0</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1 minute</td>
+            <td>4.09 x 10^1</td>
+            <td>7.75 x 10^0</td>
+            <td>6.00 x 10^1</td>
+            <td>2.45 x 10^2</td>
+            <td>3.60 x 10^3</td>
+            <td>2.16 x 10^5</td>
+            <td>1.15 x 10^18</td>
+            <td>8.32 x 10^81</td>
+        </tr>
+        <tr>
+            <td>1 hour</td>
+            <td>8.19 x 10^1</td>
+            <td>6.00 x 10^1</td>
+            <td>3.60 x 10^3</td>
+            <td>2.95 x 10^4</td>
+            <td>1.29 x 10^7</td>
+            <td>4.67 x 10^10</td>
+            <td>3.00 x 10^1084</td>
+            <td>3.69 x 10^1559</td>
+        </tr>
+        <tr>
+            <td>1 day</td>
+            <td>1.14 x 10^2</td>
+            <td>2.94 x 10^2</td>
+            <td>8.64 x 10^4</td>
+            <td>9.82 x 10^5</td>
+            <td>7.46 x 10^9</td>
+            <td>6.45 x 10^14</td>
+            <td>4.00 x 10^26037</td>
+            <td>6.41 x 10^37345</td>
+        </tr>
+        <tr>
+            <td>1 month</td>
+            <td>1.48 x 10^2</td>
+            <td>1.61 x 10^3</td>
+            <td>2.59 x 10^6</td>
+            <td>3.83 x 10^7</td>
+            <td>6.72 x 10^12</td>
+            <td>1.74 x 10^19</td>
+            <td>7.00 x 10^78000</td>
+            <td>9.99 x 10^89583</td>
+        </tr>
+        <tr>
+            <td>1 year</td>
+            <td>1.73 x 10^2</td>
+            <td>5.62 x 10^3</td>
+            <td>3.15 x 10^7</td>
+            <td>5.44 x 10^8</td>
+            <td>9.95 x 10^14</td>
+            <td>3.14 x 10^22</td>
+            <td>1.60 x 10^948230</td>
+            <td>2.47 x 10^1269403</td>
+        </tr>
+        <tr>
+            <td>1 century</td>
+            <td>2.19 x 10^2</td>
+            <td>5.62 x 10^4</td>
+            <td>3.15 x 10^9</td>
+            <td>6.90 x 10^10</td>
+            <td>9.95 x 10^18</td>
+            <td>3.14 x 10^28</td>
+            <td>9.99 x 10^31500000</td>
+            <td>7.88 x 10^428743000</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Comparison of Running Times</title>
+    <style>
+        table { width: 80%; border-collapse: collapse; margin: 20px auto; }
+        th, td { border: 1px solid black; padding: 10px; text-align: center; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h2 style='text-align:center;'>Comparison of Running Times</h2>
+    <table>
+        <tr>
+            <th>Time Limit</th>
+<th>log(n)</th><th>sqrt(n)</th><th>n</th><th>n log(n)</th><th>n^2</th><th>n^3</th><th>2^n</th><th>n!</th></tr><tr><td>1 second</td><td>N/A</td><td>1.0</td><td>1</td><td>N/A</td><td>1</td><td>1</td><td>2</td><td>1</td></tr><tr><td>1 minute</td><td>4.0943445622221</td><td>7.745966692414834</td><td>60</td><td>245.66067373332604</td><td>3600</td><td>216000</td><td>1.15292 x 10^18</td><td>8.32099 x 10^81</td></tr><tr><td>1 hour</td><td>8.1886891244442</td><td>60.0</td><td>3600</td><td>29479.28084799912</td><td>1.29600 x 10^07</td><td>4.66560 x 10^10</td><td>2^(3600)</td><td>3600!</td></tr><tr><td>1 day</td><td>11.366742954792146</td><td>293.9387691339814</td><td>86400</td><td>982086.5912940414</td><td>7.46496 x 10^09</td><td>6.44973 x 10^14</td><td>2^(86400)</td><td>86400!</td></tr><tr><td>1 month</td><td>14.767940336454302</td><td>1609.9689437998486</td><td>2.59200 x 10^06</td><td>3.82785 x 10^07</td><td>6.71846 x 10^12</td><td>1.74143 x 10^19</td><td>2^(2592000)</td><td>2592000!</td></tr><tr><td>1 year</td><td>17.26664030837464</td><td>5615.692299262843</td><td>3.15360 x 10^07</td><td>5.44521 x 10^08</td><td>9.94519 x 10^14</td><td>3.13632 x 10^22</td><td>2^(31536000)</td><td>31536000!</td></tr><tr><td>1 century</td><td>21.87181049436273</td><td>56156.92299262843</td><td>3.15360 x 10^09</td><td>6.89749 x 10^10</td><td>9.94519 x 10^18</td><td>3.13632 x 10^28</td><td>2^(3153600000)</td><td>3153600000!</td></tr>
+    </table>
+</body>
+</html>
